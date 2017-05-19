@@ -10,7 +10,6 @@ function renderButtons() {
 
 
     for (var i = 0; i < topics.length; i++) {
-
         var gifButtons = $("<button>");
         gifButtons.addClass("btn btn-primary gifButtons");
         gifButtons.attr("data-name", topics[i]);
@@ -32,10 +31,11 @@ $(document).ready(function() {
         gInput = $("#buttonInput").val().trim();
 
         var newButton = $("<button>");
-        newButton.addClass("btn btn-primary gifButtons");
+        newButton.addClass("btn btn-primary gifButtons newBtn");
         newButton.attr("data-name", gInput);
         newButton.text(gInput);
         $("#buttons").append(newButton);
+        $("#buttonInput").val("");//clears the context in the textbox
 
     });
 
@@ -105,5 +105,11 @@ $(document).ready(function() {
             $(this).attr("data-state", "still");
         }
     });
+
+    //Clears the most recent buttons
+    $("#clearButton").on("click", function() {
+    $("#buttons").empty();
+    renderButtons();
+});
 
 }); //dom close
