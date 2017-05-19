@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron {
+	padding: 2px;
+	height: 100px;
+	width: 100%;
+	margin-bottom: 10px;
+	
+}
+
+h1{
+	text-align: center;
+}
+
+#gifsAppear{
+	text-align: center;
+}
+ p {
+ 	font-size: 15px;
+ 	font-family: '';
+ }
+
+img {
+	height: 250px;
+	margin: auto;
+	float: top;
+}
+
+img:hover {
+	opacity: 1;
+	position: relative;
+	top: -10px;
+	background-color: #ccc;
+	touch-action: manipulation;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: #fff;
+	color: #777;
+	border-radius: 10px;
+	margin:2px;
+	border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+	color: #ccc;
+	opacity: 1;
+	position: relative;
+	top: -5px;
+	
+}
+
+
+.footer {
+  position: absolute;
+  color: #111;
+  text-align: center;
+}
