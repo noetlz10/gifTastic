@@ -1,5 +1,5 @@
 var topics = ["Cristiano Ronaldo", "Eden Hazard", "Lebron James", "Dez Bryant", "Michael Jordan", "Tim Duncan", "Dez Bryant"];
-var gifKey = "dc6zaTOxFJmzC";
+var gifKey = "&api_key=dc6zaTOxFJmzC";
 var gInput = "";
 var rating = "";
 
