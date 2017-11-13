@@ -1,4 +1,4 @@
-var topics = ["Cristiano Ronaldo", "Eden Hazard", "Lebron James", "Dez Bryant", "Michael Jordan", "Tim Duncan", "Dez Bryant"];
+var topics = ["Cristiano Ronaldo", "Eden Hazard", "Lebron James", "Dez Bryant", "Michael Jordan", "Tim Duncan"];
 var gifKey = "&api_key=dc6zaTOxFJmzC";
 var gInput = "";
 var rating = "";
