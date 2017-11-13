@@ -25,7 +25,7 @@ p {
 }
 
 hr {
-	font-size: 10px;
+    font-size: 10px;
 }
 
 img {
@@ -47,16 +47,15 @@ img:hover {
     color: #777;
     border-radius: 10px;
     margin: 2px;
-    border-color: #2e6da4;
+    border-color: #0c314e;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: #ccc;
     opacity: 1;
     position: relative;
     top: -5px;
 }
-
 
 span {
     position: absolute;
